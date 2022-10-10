@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -13,15 +14,15 @@ const Header = () => {
                         </svg>
                     </Link>
                     <ul className="items-stretch hidden space-x-3 md:flex">
-                        <NavLink className="flex">
-                            <NavLink rel="noopener noreferrer" to='/home' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Home</NavLink>
-                        </NavLink>
-                        <NavLink className="flex">
-                            <NavLink rel="noopener noreferrer" to='/topics' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Topics</NavLink>
-                        </NavLink>
-                        <NavLink className="flex">
-                            <NavLink rel="noopener noreferrer" to='/blog' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Blog</NavLink>
-                        </NavLink>
+                        <li className="flex">
+                            <NavLink rel="noopener noreferrer" to='/home' className="flex items-center px-4 -mb-1">Home</NavLink>
+                        </li>
+                        <li className="flex">
+                            <NavLink rel="noopener noreferrer" to='/topics' className="flex items-center px-4 -mb-1">Topics</NavLink>
+                        </li>
+                        <li className="flex">
+                            <NavLink rel="noopener noreferrer" to='/blog' className="flex items-center px-4 -mb-1">Blog</NavLink>
+                        </li>
                     </ul>
                     <button className="flex justify-end p-4 md:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
