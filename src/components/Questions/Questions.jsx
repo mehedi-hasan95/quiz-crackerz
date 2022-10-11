@@ -6,8 +6,8 @@ const Questions = () => {
     const question = useLoaderData();
     const {name, questions} = question.data
     return (
-        <div>
-            <h2>Quiz of: {name}</h2>
+        <div className='container mx-auto'>
+            <h2 className='text-3xl text-center py-10 font-bold'>Quiz of: {name}</h2>
             {
                 questions.map(qus => <SingleQuestion qus={qus} key={qus.id}></SingleQuestion>)
             }
