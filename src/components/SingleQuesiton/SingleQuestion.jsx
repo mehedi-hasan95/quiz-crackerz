@@ -28,7 +28,7 @@ const SingleQuestion = ({ qus }) => {
             </div>
             <h2 className='grid grid-cols-2 gap-5'>
                 {
-                    options.map((qst, idx) => <MCQ qst={qst} key={idx} handleClick={handleClick} showAnswer={showAnswer}></MCQ>)
+                    options.map((qst, idx) => <MCQ qst={qst} key={idx} handleClick={handleClick}></MCQ>)
                 }
             </h2>
         </div>

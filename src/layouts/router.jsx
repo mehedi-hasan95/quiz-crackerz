@@ -7,20 +7,17 @@ import Topics from "../components/Topics/Topics";
 import Main from "./Main";
 
 const router = createBrowserRouter([
-    {
-        path: '/', element: <Main></Main>,
-        children: [
-            { path: '/', element: <Home></Home>, loader: () => fetch('https://openapi.programming-hero.com/api/quiz'), },
-            { path: '/topics', element: <Topics></Topics> },
-            { path: '/blog', element: <Blog></Blog> },
-            {
-                path: '/quiz/:quizId', element: <Questions></Questions>,
-                loader: async ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
-            },
-
-        ],
-        errorElement: <Error></Error>
-    }
+    {path: '/', element: <Main></Main>,
+    children: [
+        {path: '/', element: <Home></Home>, loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),},
+        {path: '/topics', element: <Topics></Topics>, loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),},
+        {path: '/blog', element: <Blog></Blog>},
+        {path: '/quiz/:quizId', element: <Questions></Questions>,
+        loader: async ({ params }) => fetch (`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
+}
+    ],
+    errorElement: <Error></Error>
+}
 ]);
 
 export default router;
