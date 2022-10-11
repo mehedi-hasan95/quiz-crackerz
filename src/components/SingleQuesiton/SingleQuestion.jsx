@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 import MCQ from '../MCQ/MCQ';
 
 const SingleQuestion = ({ qus }) => {
@@ -8,9 +9,10 @@ const SingleQuestion = ({ qus }) => {
     // Click handaler
     const handleClick = (id) => {
         if(id === correctAnswer) {
-            console.log("Right");
+            toast.success('Right Answer', {autoClose: 1000});
         } else {
             console.log('Wrong');
+            toast.warn('🦄 Wrong Answer. Try again!', { autoClose: 1000});
         }
     }
     return (
