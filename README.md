@@ -1,71 +1,25 @@
-# Getting Started with Create React App
+### This is a Quiz website. 
+Website Title: Quizzly Beers.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Summary: This is a quiz website. 
 
-## Available Scripts
+What have I done?
 
-In the project directory, you can run:
+Quiz: First of all I said this is a quiz website. Here you can take some quizzes for free. These quizzes are loaded from an API. And the entire website is built using React.
 
-### `npm start`
+Statistics: You can see how many quizzes there are by going to the “Statistics” menu. You can see there are some grafts, which will show you some information when you mouse over them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Blog: This is a simple blog page. Here are three important questions for React and their answers in "accordion" form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+How to attend the quiz?
+This is a very simple task. You can view some of the quizzes by visiting the home page or the "Topics" page. There you can see if it's a related quiz, how many questions there are, etc. There is a button called “Attend Quiz”. Clicking on it will take you to the quiz page.
 
-### `npm test`
+How to know the answer to the quiz?
+Clicking on the quiz option will show a message on the screen. If it is correct then you will get a message, and if it is wrong you will get a message that there was an error. If you want to see the answer to the question, you can click on the “eye” icon next to the question to see the correct answer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Github live link:
+<a href="https://github.com/programming-hero-web-course2/b6-quiz-crackerz-mehedititu#readme" rel="nofollow">https://github.com/programming-hero-web-course2/b6-quiz-crackerz-mehedititu#readme</a>
 
-### `npm run build`
+Netlify live link:
+<a href="https://63464c9db970b61ae8d458e0--hilarious-crostata-c5864f.netlify.app/" rel="nofollow">https://63464c9db970b61ae8d458e0--hilarious-crostata-c5864f.netlify.app/</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# b6-quiz-crackerz-mehedititu
