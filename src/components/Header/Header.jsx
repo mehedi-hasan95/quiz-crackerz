@@ -21,6 +21,9 @@ const Header = () => {
                                 <NavLink rel="noopener noreferrer" to='/topics' className="flex items-center px-4 -mb-1 text-lg font-bold">Topics</NavLink>
                             </li>
                             <li className="flex">
+                                <NavLink rel="noopener noreferrer" to='/statistics' className="flex items-center px-4 -mb-1 text-lg font-bold">Statistics</NavLink>
+                            </li>
+                            <li className="flex">
                                 <NavLink rel="noopener noreferrer" to='/blog' className="flex items-center px-4 -mb-1 text-lg font-bold">Blog</NavLink>
                             </li>
                         </ul>

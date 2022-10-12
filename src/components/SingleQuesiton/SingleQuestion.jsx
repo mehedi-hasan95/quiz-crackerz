@@ -26,7 +26,7 @@ const SingleQuestion = ({ qus }) => {
                 <h2 className='text-2xl pb-4 font-semibold'>{question}</h2>
                 <button onClick={() => showAnswer(correctAnswer)}><EyeIcon className="h-6 w-6" /></button>
             </div>
-            <h2 className='grid grid-cols-2 gap-5'>
+            <h2 className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                 {
                     options.map((qst, idx) => <MCQ qst={qst} key={idx} handleClick={handleClick}></MCQ>)
                 }
