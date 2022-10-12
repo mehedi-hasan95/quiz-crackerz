@@ -9,7 +9,6 @@ const MCQ = ({ qst, handleClick }) => {
                     <input className=' h-5 w-5 mr-3' type="radio" name="" id="" onClick={() => handleClick(qst)}/> {qst}
                 </h2>
             </label>
-            <h2></h2>
         </div>
     );
 };

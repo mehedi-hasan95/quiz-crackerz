@@ -15,7 +15,7 @@ const Header = () => {
                     <div>
                         <ul className={`md:flex absolute md:static p-4 duration-500 ease-in ${open ? 'top-4' : 'top-[-120px]'}`}>
                             <li className="flex">
-                                <NavLink rel="noopener noreferrer" to='/' className="flex items-center px-4 -mb-1 text-lg font-bold">Home</NavLink>
+                                <NavLink rel="noopener noreferrer" to='/home' className="flex items-center px-4 -mb-1 text-lg font-bold">Home</NavLink>
                             </li>
                             <li className="flex">
                                 <NavLink rel="noopener noreferrer" to='/topics' className="flex items-center px-4 -mb-1 text-lg font-bold">Topics</NavLink>

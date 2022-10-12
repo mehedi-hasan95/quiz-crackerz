@@ -4,8 +4,8 @@ import MCQ from '../MCQ/MCQ';
 
 const SingleQuestion = ({ qus }) => {
     const { question, options, correctAnswer } = qus;
-    
-    
+
+
     // Click handaler
     const handleClick = (id) => {
         if (id === correctAnswer) {
@@ -19,7 +19,7 @@ const SingleQuestion = ({ qus }) => {
     const showAnswer = (id) => {
         toast.info(`The correct answer is: ${id}`, { autoClose: 3000, });
     }
-    
+
     return (
         <div className='bg-violet-200 mb-10 p-5'>
             <div className='flex justify-between items-center'>
